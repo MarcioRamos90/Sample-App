@@ -47,6 +47,8 @@ gem "sassc-rails"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+gem "bootstrap-sass", "3.3.7"
+
 group :development, :test do
   gem "sqlite3", "~> 1.4"
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
